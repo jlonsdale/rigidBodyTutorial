@@ -56,3 +56,8 @@ And you will implemented collision handling for the following geometry pairs:
 ### contact/
 
 Implementation of the box friction cone model (see **Contact.h/.cpp**).
+
+
+### note for self/
+```cmake -S . -B build; cmake --build build```
+```./build/Debug/rigidBodyTutorial.exe```
