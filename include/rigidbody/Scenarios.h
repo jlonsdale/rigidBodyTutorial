@@ -91,7 +91,7 @@ public:
         rigidBodySystem.addBody(bodySphere);
         rigidBodySystem.addBody(bodyBox);
 
-        bodySphere->mesh->setSurfaceColor({ 0.1f, 1.0f, 0.2f })->setEdgeWidth(1.0f);
+        bodySphere->mesh->setSurfaceColor({ 1.0f, 0.2f, 0.8f })->setEdgeWidth(1.0f);
         bodyBox->mesh->setSurfaceColor({ 0.2f, 0.2f, 0.2f })->setSmoothShade(false)->setTransparency(0.4f);
     }
 
